@@ -81,9 +81,9 @@ Basic implementation of hough Transform.
 
 <img src="README/segmentation_grapt.jpg"  width="500px" />
 
-** MNIST generalization test**
+**MNIST generalization test**
 
-got the idea from https://arxiv.org/pdf/1611.03530.pdf , how much noise can a simple model handle of noise and still do good evaluation on a noise free dataset? 
+got the idea from https://arxiv.org/pdf/1611.03530.pdf , how much noise can a simple model handle and still do good evaluation on a noise free dataset? 
 
 <img src="README/generalization_test_bar.jpg"  width="500px" />
 
@@ -91,8 +91,62 @@ the accuracy over time is based on the traing data.
 
 <img src="README/generalization_test.jpg"  width="500px" />
 
+**Generalization**
+
+https://arxiv.org/pdf/1611.03530.pdf
+
+<img src="README/generalization_paper_acc.jpg"  width="500px" />
+
+<img src="README/generalization_paper_loss.jpg"  width="500px" />
+
+**Poisson image editing**
+
+Mostly a fork off [this](https://github.com/willemmanuel/poisson-image-editing) implementation, I fixed support for python3 and made it work with all the channels. Removed opencv depency as well.
+
+<img src="README/poisson_image_editing.jpg"  width="500px" />
+
+**Feature detection**
+
+Harris corner detector to find special features in each image. Using MSE to connect the special features.
+
+<img src="README/feature_detection.jpg"  width="500px" />
 
 
+**Counterfactual regret minimization**
+
+Python implementation of the rock, paper, scissor section of http://modelai.gettysburg.edu/2013/cfr/cfr.pdf 
+
+**Lucas–Kanade method, optical flow**
+
+<img src="README/optical_input.jpg"  width="500px" />
+
+<img src="README/optical1.jpg"  width="500px" />
+
+<img src="README/optical2.jpg"  width="500px" />
+
+<img src="README/optical3.jpg"  width="500px" />
+
+<img src="README/optical4.jpg"  width="500px" />
+
+
+**Segnet**
+
+Had memoryerrors so this model was trained on only a subset of the training set (please hire me so I can build a computer for machine learning). I used the CamVid dataset.
+
+<img src="README/segnet.jpg"  width="500px" />
+
+
+**Transfer learning**
+
+https://en.wikipedia.org/wiki/Transfer_learning
+
+**Autoencoder fixing image noise**
+
+<img src="README/autoencoder_noise.jpg"  width="500px" />
+
+**Numpy rnn**
+
+Loosely based on [iamtrask](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/) post. Maybe I wouldn't have coded this if he had used a linked list.
 
 
 
