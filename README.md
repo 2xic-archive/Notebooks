@@ -20,18 +20,18 @@ I wrote a basic game to test q-learning.
 
 based off https://arxiv.org/abs/1610.09585
 
-<img src="README/gan.gif" width="500px" />
+<img src="README/gan.gif" height="250px" />
 
 **Dropout**
 
 based off http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
 model without dropout
 
-<img src="README/not_dropout.jpg" width="500px" />
+<img src="README/not_dropout.jpg" height="250px" />
 
 model with dropout
 
-<img src="README/dropout.jpg" width="500px" />
+<img src="README/dropout.jpg" height="250px" />
 
 **Feature checker**
 
@@ -39,7 +39,7 @@ Based off the idea from https://github.com/evilsocket/ergo (relevance.py).
 What feature is contributing what to the models results? If you are going to use this 
 in production, set some random data points to zero during trainings as well.
 
-<img src="README/model_check.jpg" width="500px" />
+<img src="README/model_check.jpg" height="250px" />
 
 **Filters fixing noise**
 
@@ -55,7 +55,7 @@ Search algorithm.
 
 **K-means clustering**
 
-<img src="README/k-means clustering.jpg" width="500px" />
+<img src="README/k-means clustering.jpg" height="250px" />
 
 **LeCun CNN**
 
@@ -75,29 +75,29 @@ Basic implementation of hough Transform.
 
 **Gan in numpy**
 
-<img src="README/np_gan.jpg"  width="500px" />
+<img src="README/np_gan.jpg"  height="250px" />
 
 **Segmentation graph**
 
-<img src="README/segmentation_grapt.jpg"  width="500px" />
+<img src="README/segmentation_grapt.jpg"  height="250px" />
 
 **MNIST generalization test**
 
 got the idea from https://arxiv.org/pdf/1611.03530.pdf , how much noise can a simple model handle and still do good evaluation on a noise free dataset? 
 
-<img src="README/generalization_test_bar.jpg"  width="500px" />
+<img src="README/generalization_test_bar.jpg"  height="250px" />
 
 the accuracy over time is based on the traing data.
 
-<img src="README/generalization_test.jpg"  width="500px" />
+<img src="README/generalization_test.jpg"  height="250px" />
 
 **Generalization**
 
 https://arxiv.org/pdf/1611.03530.pdf
 
-<img src="README/generalization_paper_acc.jpg"  width="500px" />
+<img src="README/generalization_paper_acc.jpg"  height="250px" />
 
-<img src="README/generalization_paper_loss.jpg"  width="500px" />
+<img src="README/generalization_paper_loss.jpg"  height="250px" />
 
 **Poisson image editing**
 
@@ -118,15 +118,11 @@ Python implementation of the rock, paper, scissor section of http://modelai.gett
 
 **Lucas–Kanade method, optical flow**
 
-<img src="README/optical_input.jpg"  width="500px" />
-
-<img src="README/optical1.jpg"  width="500px" />
-
-<img src="README/optical2.jpg"  width="500px" />
-
-<img src="README/optical3.jpg"  width="500px" />
-
-<img src="README/optical4.jpg"  width="500px" />
+<img src="README/optical_input.jpg"  height="250px" />
+<img src="README/optical1.jpg"  height="250px" />
+<img src="README/optical2.jpg"  height="250px" />
+<img src="README/optical3.jpg"  height="250px" />
+<img src="README/optical4.jpg"  height="250px" />
 
 
 **Segnet**
